@@ -1,0 +1,24 @@
+{% load static %}
+
+<a href="{% url 'plans' %}">Back to Plans</a>
+
+<link rel="stylesheet" href="{% static 'assets/css/plan_details.css'%}">
+
+  <div>
+    <h1>Plan Details</h1>
+  </div>
+
+<section>
+
+  <h3>{{ plan.name_of_place}}</h3>
+{#  <img src="{{ plan.flag_of_place }}" alt="Flag photo">#}
+  <p class="date">Date visiting: {{ plan.date_going}}</p>
+  <p class="price">Budget: ${{ plan.budget|floatformat:2 }}</p>
+  <p>Notes: {{ plan.note }}</p>
+   {% if is_owner %}
+      <a href="{% url 'edit plan' plan.pk %}">Edit</a>
+      <a href="{% url 'delete plan' plan.pk %}">Delete</a>
+   {% endif %}
+
+
+</section>

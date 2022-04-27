@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block page_content %}
+<div id="hero" class="hero overlay">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Share the World with us.</h1>
+                <p>Discover our beautiful planet. </p>
+                <a href="{% url 'login user' %}" class="btn btn-border">Login</a>
+                <a href="{% url 'register' %}" class="btn btn-border">Register</a>
+            </div><!-- /.hero-text -->
+        </div><!-- /.hero-content -->
+    </div><!-- /.hero -->
+
+
+{% endblock %}
+
+

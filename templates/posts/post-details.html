@@ -1,0 +1,59 @@
+{% load static %}
+
+<a href="{% url 'gallery' %}">Back to Gallery</a>
+
+<link rel="stylesheet" href="{% static 'assets/css/post_details.css'%}">
+  <div>
+    <h1>Post Details</h1>
+  </div>
+<section>
+  <h3>{{ post.place_visited}}</h3>
+  <img src="{{ post.photo }} " alt="post photo">
+   {% if post.date_visited %}
+         <p>Date visited: {{ post.date_visited}}</p>
+
+   {% endif %}
+  <p>{{ post.description }}</p>
+    {% if is_owner %}
+      <a href="{% url 'edit post' post.pk %}">Edit</a>
+      <a href="{% url 'delete post' post.pk %}">Delete</a>
+
+    {% else %}
+    <br/>
+        <a href="{% url 'add comment' post.pk %}">Add comment</a>
+    {% endif %}
+   <br/>
+
+</section>
+
+<br/><br/>
+ <h2>Comments: </h2>
+{% if not post.comments.all %}
+    <h3>No comments on this post!</h3>
+    <br/>
+{% else %}
+
+<section2   class="comment1" >
+
+    {% for co in post.comments.all%}
+        <div class="media">
+            <div class="media-body">
+                <p><a>Posted by: {{ co.comment_owner }}</a></p>
+
+                    <h4>Posted on: {{ co.date_posted }}</h4>
+
+                <p class="description1">Comment: {{ co.comment_body }}</p>
+                {% if is_owner %}
+                    <a href="{% url 'delete comment' co.pk %}">Delete comment</a>
+                {% endif %}
+                <hr>
+
+            </div>
+
+        </div>
+    {% endfor %}
+{% endif %}
+</section2>
+<br/><br/>
+
+

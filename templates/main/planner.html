@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block page_content %}
+
+
+<link rel="stylesheet" href="{% static 'assets/css/post_.css' %}"/>
+<header>
+  <div class="container">
+      <div class="d-flex justify-content-start mb-5">
+        <h1>Plans</h1>
+      </div>
+  </div>
+</header>
+
+
+<main class="container">
+
+
+
+          {% if not plan %}
+            <h1>No Plans Yet!</h1>
+
+          {% else %}
+              <h2>Plans</h2>
+
+                  <section class="card-row">
+                      {% for p in plan %}
+                        <article class="card">
+                             <a href="{% url 'plan details' p.pk %}" target="_blank">
+
+                                 <img src="{{ p.flag_of_place }}" alt="Picture of the Flag" width="200" height="150">
+
+                             </a>
+                        </article>
+                      {% endfor %}
+          {% endif %}
+        </section>
+
+</main>
+{% endblock %}
