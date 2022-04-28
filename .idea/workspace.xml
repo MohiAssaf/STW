@@ -5,113 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d488f19e-54cc-4e9f-96d6-439dc988df00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ShareTheWorld.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/301fa3fb-446b-4593-a862-1d1bb4047abd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/301fa3fb-446b-4593-a862-1d1bb4047abd/storage_v2/_src_/database/mohi.IzozAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/301fa3fb-446b-4593-a862-1d1bb4047abd/storage_v2/_src_/database/mohi.IzozAA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/301fa3fb-446b-4593-a862-1d1bb4047abd/storage_v2/_src_/database/mohi.IzozAA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/301fa3fb-446b-4593-a862-1d1bb4047abd/storage_v2/_src_/database/mohi.IzozAA/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/301fa3fb-446b-4593-a862-1d1bb4047abd/storage_v2/_src_/database/postgres.edMnLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/301fa3fb-446b-4593-a862-1d1bb4047abd/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/301fa3fb-446b-4593-a862-1d1bb4047abd/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/301fa3fb-446b-4593-a862-1d1bb4047abd/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/MAIN/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/MAIN/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/MAIN/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/MAIN/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/MAIN/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/MAIN/migrations/0002_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/MAIN/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/MAIN/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/MAIN/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/MAIN/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/MAIN/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/accounts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/accounts/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/accounts/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/accounts/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/accounts/managers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/accounts/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/accounts/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/accounts/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/accounts/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/accounts/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/accounts/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/validators/helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/validators/validators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareTheWorld/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/css/plan_details.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/css/post_.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/css/post_details.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/css/profile_card.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/img/anchor.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/img/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/img/basket.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/img/bycicle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/img/car.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/img/chemestry.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/img/contact-hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/img/galley-top.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/img/hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/img/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/img/microphone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/img/paper-plane.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/img/photo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/img/portfolio-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/img/portfolio-hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/img/rocket.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/js/bootstrap-select.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/js/jquery.countTo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/js/jquery.shuffle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/js/jquery.slicknav.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/js/profile_card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/assets/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/accounts/change_password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/accounts/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/accounts/logout-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/accounts/profile_create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/accounts/profile_details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/accounts/profile_edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/comment/add_comment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/comment/delete_comment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/gallery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/planner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/plans/create_plan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/plans/delete_plan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/plans/edit_plan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/plans/plan details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/create-post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/delete-post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/edit-post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/assets/css/post_.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/assets/css/post_.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/planner.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/planner.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../STP-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -614,7 +510,10 @@
       <workItem from="1651072198678" duration="186000" />
       <workItem from="1651072406060" duration="250000" />
       <workItem from="1651073601492" duration="1500000" />
-      <workItem from="1651075522506" duration="661000" />
+      <workItem from="1651075522506" duration="1634000" />
+      <workItem from="1651077452362" duration="18000" />
+      <workItem from="1651101266134" duration="28000" />
+      <workItem from="1651180638660" duration="909000" />
     </task>
     <servers />
   </component>
@@ -637,7 +536,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="django-line">
           <url>file://$PROJECT_DIR$/templates/main/planner.html</url>
-          <line>34</line>
+          <line>36</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
