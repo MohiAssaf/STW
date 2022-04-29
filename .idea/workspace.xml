@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d488f19e-54cc-4e9f-96d6-439dc988df00" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShareTheWorld/MAIN/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShareTheWorld/MAIN/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShareTheWorld/MAIN/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShareTheWorld/MAIN/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShareTheWorld/MAIN/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShareTheWorld/MAIN/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShareTheWorld/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShareTheWorld/accounts/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShareTheWorld/accounts/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShareTheWorld/accounts/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShareTheWorld/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShareTheWorld/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/profile_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/profile_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/planner.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/planner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShareTheWorld/validators/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShareTheWorld/validators/helpers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +72,7 @@
       <recent name="C:\Users\35987\PycharmProjects\ShareTheWorld\staticfiles\assets\css" />
     </key>
   </component>
-  <component name="RunManager" selected="Django tests.Test: ShareTheWorld.MAIN.tests.PostPlansViewTests">
+  <component name="RunManager" selected="Django Server.ShareTheWorld">
     <configuration name="Test: ShareTheWorld.MAIN.tests.PostPlansViewTests" type="DjangoTestsConfigurationType" temporary="true">
       <module name="ShareTheWorld" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -530,7 +526,7 @@
       <workItem from="1651185962965" duration="79000" />
       <workItem from="1651186066764" duration="545000" />
       <workItem from="1651186757746" duration="4306000" />
-      <workItem from="1651222282320" duration="2591000" />
+      <workItem from="1651222282320" duration="2888000" />
     </task>
     <servers />
   </component>
@@ -576,7 +572,7 @@
     <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileViewTest_test_when_everything_is_valid__expect_correct_template.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileViewTest.test_when_everything_is_valid__expect_correct_template Coverage Results" MODIFIED="1651190086501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileViewTest_test_when_opening_non_existing_profile__expect_404.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileViewTest.test_when_opening_non_existing_profile__expect_404 Coverage Results" MODIFIED="1651223150155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_MAIN_tests_PostPlansViewTests_test_when_post_is_added_expect_post_count_to_be_1.coverage" NAME="Test: ShareTheWorld.MAIN.tests.PostPlansViewTests.test_when_post_is_added_expect_post_count_to_be_1 Coverage Results" MODIFIED="1651222349771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_MAIN_tests_PostPlansViewTests.coverage" NAME="Test: ShareTheWorld.MAIN.tests.PostPlansViewTests Coverage Results" MODIFIED="1651224823637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_MAIN_tests_PostPlansViewTests.coverage" NAME="Test: ShareTheWorld.MAIN.tests.PostPlansViewTests Coverage Results" MODIFIED="1651225141320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_MAIN_tests_ProfileDetailsViewTests_test_expect_correct_template.coverage" NAME="Test: ShareTheWorld.MAIN.tests.ProfileDetailsViewTests.test_expect_correct_template Coverage Results" MODIFIED="1651186826867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileDetailsViewTest.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileDetailsViewTest Coverage Results" MODIFIED="1651069648144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileNameOnlyLettersValidatorTest_test_when_creating_profile_entering_space_between_letters__expect_success.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileNameOnlyLettersValidatorTest.test_when_creating_profile_entering_space_between_letters__expect_success Coverage Results" MODIFIED="1651068296239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

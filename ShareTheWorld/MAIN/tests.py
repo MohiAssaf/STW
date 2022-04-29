@@ -151,7 +151,3 @@ class PostPlansViewTests(django_test.TestCase):
         self.assertTrue(response.context['is_owner'])
 
 
-
-
-# alkd lkada s;ldka
-        

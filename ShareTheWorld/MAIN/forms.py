@@ -2,7 +2,7 @@ from django import forms
 
 
 from ShareTheWorld.MAIN.models import Post, Plan, Comment
-from ShareTheWorld.validators.helpers import BootstrapFormMixin, DisabledFieldsFormMixin
+from ShareTheWorld.validators.helpers import BootstrapFormMixin
 
 # ------------ Start of FORM CBV for post -----------#
 class CreatePostForm(BootstrapFormMixin, forms.ModelForm):
@@ -57,7 +57,7 @@ class EditPostForm(forms.ModelForm):
         fields = ('owner', 'photo', 'place_visited', 'date_visited', 'description')
 
 
-class DeletePostForm(BootstrapFormMixin, DisabledFieldsFormMixin, forms.ModelForm):
+class DeletePostForm(BootstrapFormMixin, forms.ModelForm):
     def save(self, commit=True):
         self.instance.delete()
         return self.instance
