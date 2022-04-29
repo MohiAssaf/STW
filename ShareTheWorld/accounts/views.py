@@ -4,7 +4,7 @@ from django.urls import reverse_lazy, reverse
 from django.views import generic as views
 from django.contrib.auth.forms import PasswordChangeForm
 
-
+from ShareTheWorld.MAIN.models import Post
 from ShareTheWorld.accounts.forms import CreateProfileForm, EditProfileForm
 from ShareTheWorld.accounts.models import Profile, STWUser
 from django.contrib import messages
@@ -42,6 +42,21 @@ class ProfileDetailsView(views.DetailView):
     context_object_name = 'profile'
 
 
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        posts = list(Post.objects.filter(user_id=self.object.user_id))
+
+        post_count = len(posts)
+
+        context.update({
+            'post_count': post_count,
+
+        })
+
+        return context
+
+
+
 class ProfileEditView(views.UpdateView):
     model = Profile
     form_class = EditProfileForm
@@ -60,22 +75,6 @@ def DeleteProfileView(request, pk):
     user.delete()
 
     return redirect('index')
-
-
-
-#
-# class DeleteProfileView(views.DeleteView):
-#     model = Profile
-#     success_url = reverse_lazy('index')
-#
-#     def get_context_data(self, **kwargs):
-#         context = super(DeleteProfileView, self).get_context_data(**kwargs)
-#         context['userform'] = DeleteProfileForm(instance=self.request.user)
-#         user = STWUser.objects.get(username=self.request.user.username)
-#         user.delete()
-#         return context
-
-
 
 
 

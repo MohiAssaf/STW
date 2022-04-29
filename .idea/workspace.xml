@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d488f19e-54cc-4e9f-96d6-439dc988df00" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/assets/css/post_.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/assets/css/post_.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShareTheWorld/MAIN/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShareTheWorld/MAIN/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShareTheWorld/MAIN/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShareTheWorld/MAIN/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShareTheWorld/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShareTheWorld/accounts/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShareTheWorld/accounts/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShareTheWorld/accounts/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShareTheWorld/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShareTheWorld/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/profile_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/profile_details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/main/planner.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/planner.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,8 +76,8 @@
       <recent name="C:\Users\35987\PycharmProjects\ShareTheWorld\staticfiles\assets\css" />
     </key>
   </component>
-  <component name="RunManager" selected="Django Server.ShareTheWorld">
-    <configuration name="Test: ShareTheWorld.accounts.tests.MinDateValidatorTest" type="DjangoTestsConfigurationType" temporary="true">
+  <component name="RunManager" selected="Django tests.Test: ShareTheWorld.MAIN.tests.PostPlansViewTests.test_plan_expect_correct_template">
+    <configuration name="Test: ShareTheWorld.MAIN.tests.PostPlansViewTests.test_plan_expect_correct_template" type="DjangoTestsConfigurationType" temporary="true">
       <module name="ShareTheWorld" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,14 +90,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="ShareTheWorld.accounts.tests.MinDateValidatorTest" />
+      <option name="TARGET" value="ShareTheWorld.MAIN.tests.PostPlansViewTests.test_plan_expect_correct_template" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: ShareTheWorld.accounts.tests.ProfileDetailsViewTest" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: ShareTheWorld.MAIN.tests.PostPlansViewTests.test_when_no_posts__expect_post_count_to_be_0" type="DjangoTestsConfigurationType" temporary="true">
       <module name="ShareTheWorld" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,14 +110,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="ShareTheWorld.accounts.tests.ProfileDetailsViewTest" />
+      <option name="TARGET" value="ShareTheWorld.MAIN.tests.PostPlansViewTests.test_when_no_posts__expect_post_count_to_be_0" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: ShareTheWorld.accounts.tests.ProfileMaxDateValidatorTest" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: ShareTheWorld.MAIN.tests.PostPlansViewTests.test_when_user_is__owner_of_the_post__expect_is_owner_to_be_true" type="DjangoTestsConfigurationType" temporary="true">
       <module name="ShareTheWorld" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,14 +130,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="ShareTheWorld.accounts.tests.ProfileMaxDateValidatorTest" />
+      <option name="TARGET" value="ShareTheWorld.MAIN.tests.PostPlansViewTests.test_when_user_is__owner_of_the_post__expect_is_owner_to_be_true" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: ShareTheWorld.accounts.tests.ProfileNameOnlyLettersValidatorTest" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: ShareTheWorld.MAIN.tests.PostPlansViewTests.test_when_user_is_owner_of_the_plan__expect_is_owner_to_be_true" type="DjangoTestsConfigurationType" temporary="true">
       <module name="ShareTheWorld" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,14 +150,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="ShareTheWorld.accounts.tests.ProfileNameOnlyLettersValidatorTest" />
+      <option name="TARGET" value="ShareTheWorld.MAIN.tests.PostPlansViewTests.test_when_user_is_owner_of_the_plan__expect_is_owner_to_be_true" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: ShareTheWorld.accounts.tests.ProfileRegisterViewTests" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: ShareTheWorld.accounts.tests.ProfileViewTest.test_when_opening_non_existing_profile__expect_404" type="DjangoTestsConfigurationType" temporary="true">
       <module name="ShareTheWorld" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,7 +170,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="ShareTheWorld.accounts.tests.ProfileRegisterViewTests" />
+      <option name="TARGET" value="ShareTheWorld.accounts.tests.ProfileViewTest.test_when_opening_non_existing_profile__expect_404" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
@@ -198,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Django tests.Test: ShareTheWorld.accounts.tests.ProfileRegisterViewTests" />
-        <item itemvalue="Django tests.Test: ShareTheWorld.accounts.tests.ProfileDetailsViewTest" />
-        <item itemvalue="Django tests.Test: ShareTheWorld.accounts.tests.ProfileNameOnlyLettersValidatorTest" />
-        <item itemvalue="Django tests.Test: ShareTheWorld.accounts.tests.MinDateValidatorTest" />
-        <item itemvalue="Django tests.Test: ShareTheWorld.accounts.tests.ProfileMaxDateValidatorTest" />
+        <item itemvalue="Django tests.Test: ShareTheWorld.MAIN.tests.PostPlansViewTests.test_plan_expect_correct_template" />
+        <item itemvalue="Django tests.Test: ShareTheWorld.MAIN.tests.PostPlansViewTests.test_when_no_posts__expect_post_count_to_be_0" />
+        <item itemvalue="Django tests.Test: ShareTheWorld.MAIN.tests.PostPlansViewTests.test_when_user_is_owner_of_the_plan__expect_is_owner_to_be_true" />
+        <item itemvalue="Django tests.Test: ShareTheWorld.MAIN.tests.PostPlansViewTests.test_when_user_is__owner_of_the_post__expect_is_owner_to_be_true" />
+        <item itemvalue="Django tests.Test: ShareTheWorld.accounts.tests.ProfileViewTest.test_when_opening_non_existing_profile__expect_404" />
       </list>
     </recent_temporary>
   </component>
@@ -513,7 +518,19 @@
       <workItem from="1651075522506" duration="1634000" />
       <workItem from="1651077452362" duration="18000" />
       <workItem from="1651101266134" duration="28000" />
-      <workItem from="1651180638660" duration="909000" />
+      <workItem from="1651180638660" duration="3576000" />
+      <workItem from="1651185129876" duration="7000" />
+      <workItem from="1651185185102" duration="2000" />
+      <workItem from="1651185312914" duration="2000" />
+      <workItem from="1651185404584" duration="108000" />
+      <workItem from="1651185554521" duration="62000" />
+      <workItem from="1651185648253" duration="155000" />
+      <workItem from="1651185836272" duration="42000" />
+      <workItem from="1651185890038" duration="54000" />
+      <workItem from="1651185962965" duration="79000" />
+      <workItem from="1651186066764" duration="545000" />
+      <workItem from="1651186757746" duration="4306000" />
+      <workItem from="1651222282320" duration="1684000" />
     </task>
     <servers />
   </component>
@@ -536,7 +553,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="django-line">
           <url>file://$PROJECT_DIR$/templates/main/planner.html</url>
-          <line>36</line>
+          <line>30</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -544,25 +561,44 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_MinDateValidatorTest_test_when_below_min_date_is_given__expect_to_raise.coverage" NAME="Test: ShareTheWorld.accounts.tests.MinDateValidatorTest.test_when_below_min_date_is_given__expect_to_raise Coverage Results" MODIFIED="1651067356941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileMaxDateValidatorTest.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileMaxDateValidatorTest Coverage Results" MODIFIED="1651069615671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileDetailsViewTest_test_when_all_valid__expect_correct_template.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileDetailsViewTest.test_when_all_valid__expect_correct_template Coverage Results" MODIFIED="1651068548685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_MAIN_tests_PostPlansViewTests_test_when_no_posts__expect_post_count_to_be_0.coverage" NAME="Test: ShareTheWorld.MAIN.tests.PostPlansViewTests.test_when_no_posts__expect_post_count_to_be_0 Coverage Results" MODIFIED="1651223739054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileViewTest_test_expect_correct_profile_detail_view.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileViewTest.test_expect_correct_profile_detail_view Coverage Results" MODIFIED="1651190828668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileMaxDateValidatorTest_test_when_correct_date__expect_success.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileMaxDateValidatorTest.test_when_correct_date__expect_success Coverage Results" MODIFIED="1651067562271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_MAIN_tests_PostPlansViewTests_test_when_user_is_owner_of_the_plan__expect_is_owner_to_be_true.coverage" NAME="Test: ShareTheWorld.MAIN.tests.PostPlansViewTests.test_when_user_is_owner_of_the_plan__expect_is_owner_to_be_true Coverage Results" MODIFIED="1651223601911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileNameOnlyLettersValidatorTest_test_when_creating_profile_entering_dash_and_letters__expect_raise.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileNameOnlyLettersValidatorTest.test_when_creating_profile_entering_dash_and_letters__expect_raise Coverage Results" MODIFIED="1651068457436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileNameOnlyLettersValidatorTest.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileNameOnlyLettersValidatorTest Coverage Results" MODIFIED="1651069638892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_MAIN_tests_PostPlansViewTests_test_when_everything_is_valid__expect_correct_template.coverage" NAME="Test: ShareTheWorld.MAIN.tests.PostPlansViewTests.test_when_everything_is_valid__expect_correct_template Coverage Results" MODIFIED="1651190386676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_UserRegisterViewTests.coverage" NAME="Test: ShareTheWorld.accounts.tests.UserRegisterViewTests Coverage Results" MODIFIED="1651068589290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileMaxDateValidatorTest_test_when_earlier_than_expected_date_is_given__expect_to_raise.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileMaxDateValidatorTest.test_when_earlier_than_expected_date_is_given__expect_to_raise Coverage Results" MODIFIED="1651067575391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileRegisterViewTests_test_when_creating_profile_entering_invalid_user_credentials__expect_raise.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileRegisterViewTests.test_when_creating_profile_entering_invalid_user_credentials__expect_raise Coverage Results" MODIFIED="1651069545277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_UserRegisterViewTests_test_create_profile__when_all_valid__expect_to_create.coverage" NAME="Test: ShareTheWorld.accounts.tests.UserRegisterViewTests.test_create_profile__when_all_valid__expect_to_create Coverage Results" MODIFIED="1650924629962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_UserRegisterViewTests_test_signup_page_view_name.coverage" NAME="Test: ShareTheWorld.accounts.tests.UserRegisterViewTests.test_signup_page_view_name Coverage Results" MODIFIED="1650924621308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_MinDateValidatorTest.coverage" NAME="Test: ShareTheWorld.accounts.tests.MinDateValidatorTest Coverage Results" MODIFIED="1651069627017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_UserRegisterViewTests_test_create_profile__when_all_valid__expect_to_redirect_to_details.coverage" NAME="Test: ShareTheWorld.accounts.tests.UserRegisterViewTests.test_create_profile__when_all_valid__expect_to_redirect_to_details Coverage Results" MODIFIED="1650924636927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_MinDateValidatorTest_test_correct_date_entered__expect_success.coverage" NAME="Test: ShareTheWorld.accounts.tests.MinDateValidatorTest.test_correct_date_entered__expect_success Coverage Results" MODIFIED="1651067230919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileNameOnlyLettersValidatorTest_test_when_creating_profile_entering_space_between_letters__expect_raise.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileNameOnlyLettersValidatorTest.test_when_creating_profile_entering_space_between_letters__expect_raise Coverage Results" MODIFIED="1651068840983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileViewTest.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileViewTest Coverage Results" MODIFIED="1651188813257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_MAIN_tests_PostPlansViewTests_test__when_all_valid__expect_to_create_post.coverage" NAME="Test: ShareTheWorld.MAIN.tests.PostPlansViewTests.test__when_all_valid__expect_to_create_post Coverage Results" MODIFIED="1651189634114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileViewTest_test_when_everything_is_valid__expect_correct_template.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileViewTest.test_when_everything_is_valid__expect_correct_template Coverage Results" MODIFIED="1651190086501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileViewTest_test_when_opening_non_existing_profile__expect_404.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileViewTest.test_when_opening_non_existing_profile__expect_404 Coverage Results" MODIFIED="1651223150155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_MAIN_tests_PostPlansViewTests_test_when_post_is_added_expect_post_count_to_be_1.coverage" NAME="Test: ShareTheWorld.MAIN.tests.PostPlansViewTests.test_when_post_is_added_expect_post_count_to_be_1 Coverage Results" MODIFIED="1651222349771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_MAIN_tests_ProfileDetailsViewTests_test_expect_correct_template.coverage" NAME="Test: ShareTheWorld.MAIN.tests.ProfileDetailsViewTests.test_expect_correct_template Coverage Results" MODIFIED="1651186826867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileDetailsViewTest.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileDetailsViewTest Coverage Results" MODIFIED="1651069648144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileRegisterViewTests.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileRegisterViewTests Coverage Results" MODIFIED="1651069657005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_UserRegisterViewTests_test_signup_page_url.coverage" NAME="Test: ShareTheWorld.accounts.tests.UserRegisterViewTests.test_signup_page_url Coverage Results" MODIFIED="1650924610100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileNameOnlyLettersValidatorTest_test_when_creating_profile_entering_only_letters__expect_success.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileNameOnlyLettersValidatorTest.test_when_creating_profile_entering_only_letters__expect_success Coverage Results" MODIFIED="1651068289907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileNameOnlyLettersValidatorTest_test_when_creating_profile_entering_space_between_letters__expect_success.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileNameOnlyLettersValidatorTest.test_when_creating_profile_entering_space_between_letters__expect_success Coverage Results" MODIFIED="1651068296239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileDetailsViewTest_test_profile_full_name__when_valid__expect_correct_full_name.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileDetailsViewTest.test_profile_full_name__when_valid__expect_correct_full_name Coverage Results" MODIFIED="1651068654818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileMaxDateValidatorTest.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileMaxDateValidatorTest Coverage Results" MODIFIED="1651188780049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileViewTest_test_when_user_is_owner__expect_is_owner_to_be_true.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileViewTest.test_when_user_is_owner__expect_is_owner_to_be_true Coverage Results" MODIFIED="1651188669944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileDetailsViewTest_test_when_all_valid__expect_correct_template.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileDetailsViewTest.test_when_all_valid__expect_correct_template Coverage Results" MODIFIED="1651068548685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_MAIN_tests_PostPlansViewTests_test_plan_expect_correct_template.coverage" NAME="Test: ShareTheWorld.MAIN.tests.PostPlansViewTests.test_plan_expect_correct_template Coverage Results" MODIFIED="1651223963978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileNameOnlyLettersValidatorTest.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileNameOnlyLettersValidatorTest Coverage Results" MODIFIED="1651188799746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_MAIN_tests_PostPlansViewTests_test_when_user_is__owner_of_the_post__expect_is_owner_to_be_true.coverage" NAME="Test: ShareTheWorld.MAIN.tests.PostPlansViewTests.test_when_user_is__owner_of_the_post__expect_is_owner_to_be_true Coverage Results" MODIFIED="1651223481642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_MAIN_tests_PostPlansViewTests_test__when_all_valid_for_post__expect_correct_template.coverage" NAME="Test: ShareTheWorld.MAIN.tests.PostPlansViewTests.test__when_all_valid_for_post__expect_correct_template Coverage Results" MODIFIED="1651190547158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_MAIN_tests_PostPlansViewTests_test_when_user_is_not_owner__expect_is_owner_to_be_false.coverage" NAME="Test: ShareTheWorld.MAIN.tests.PostPlansViewTests.test_when_user_is_not_owner__expect_is_owner_to_be_false Coverage Results" MODIFIED="1651222622830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_UserRegisterViewTests_test_signup_page_view_name.coverage" NAME="Test: ShareTheWorld.accounts.tests.UserRegisterViewTests.test_signup_page_view_name Coverage Results" MODIFIED="1650924621308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_MinDateValidatorTest.coverage" NAME="Test: ShareTheWorld.accounts.tests.MinDateValidatorTest Coverage Results" MODIFIED="1651188789709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_UserRegisterViewTests_test_create_profile__when_all_valid__expect_to_redirect_to_details.coverage" NAME="Test: ShareTheWorld.accounts.tests.UserRegisterViewTests.test_create_profile__when_all_valid__expect_to_redirect_to_details Coverage Results" MODIFIED="1650924636927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileRegisterViewTests_test_when_user_is_owner__expect_is_owner_to_be_true.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileRegisterViewTests.test_when_user_is_owner__expect_is_owner_to_be_true Coverage Results" MODIFIED="1651188533582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_MinDateValidatorTest_test_correct_date_entered__expect_success.coverage" NAME="Test: ShareTheWorld.accounts.tests.MinDateValidatorTest.test_correct_date_entered__expect_success Coverage Results" MODIFIED="1651067230919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_MAIN_tests_PostPlansViewTests_test_when_no_post_count__expect_total_likes_count_to_be_0.coverage" NAME="Test: ShareTheWorld.MAIN.tests.PostPlansViewTests.test_when_no_post_count__expect_total_likes_count_to_be_0 Coverage Results" MODIFIED="1651189865267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileNameOnlyLettersValidatorTest_test_when_creating_profile_entering_space_between_letters__expect_raise.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileNameOnlyLettersValidatorTest.test_when_creating_profile_entering_space_between_letters__expect_raise Coverage Results" MODIFIED="1651068840983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileRegisterViewTests.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileRegisterViewTests Coverage Results" MODIFIED="1651188819885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_MAIN_tests_PostPlansViewTests_test__when_all_valid_for_plan__expect_correct_template.coverage" NAME="Test: ShareTheWorld.MAIN.tests.PostPlansViewTests.test__when_all_valid_for_plan__expect_correct_template Coverage Results" MODIFIED="1651222389146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_MAIN_tests_PostPlansViewTests_test_when_user_is_not_owner_of_the_plan__expect_is_owner_to_be_false.coverage" NAME="Test: ShareTheWorld.MAIN.tests.PostPlansViewTests.test_when_user_is_not_owner_of_the_plan__expect_is_owner_to_be_false Coverage Results" MODIFIED="1651222982513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_UserRegisterViewTests_test_signup_page_url.coverage" NAME="Test: ShareTheWorld.accounts.tests.UserRegisterViewTests.test_signup_page_url Coverage Results" MODIFIED="1650924610100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShareTheWorld$Test__ShareTheWorld_accounts_tests_ProfileNameOnlyLettersValidatorTest_test_when_creating_profile_entering_only_letters__expect_success.coverage" NAME="Test: ShareTheWorld.accounts.tests.ProfileNameOnlyLettersValidatorTest.test_when_creating_profile_entering_only_letters__expect_success Coverage Results" MODIFIED="1651068289907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

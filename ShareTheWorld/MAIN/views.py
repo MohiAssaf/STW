@@ -12,7 +12,7 @@ from ShareTheWorld.MAIN.models import Post, Plan, Comment
 
 
 
-#----> generic views start
+#----> Main  views start ----- #
 class HomeView(views.TemplateView):
     template_name = 'main/index.html'
 
@@ -40,7 +40,7 @@ class PlanViewPage(views.ListView):
     context_object_name = 'plan'
 
 
-#----> generic views end --------#
+#----> Main views end --------#
 
 
 

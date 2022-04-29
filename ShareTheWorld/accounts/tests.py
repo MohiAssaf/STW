@@ -3,12 +3,11 @@ from django.urls import reverse
 from django import test as django_test
 from django.contrib.auth import get_user_model
 from django.core.exceptions import ValidationError
+from ShareTheWorld.accounts.models import Profile
 
 
 
 # ----------- profile/user tests -----------#
-from ShareTheWorld.accounts.models import Profile
-
 UserModel = get_user_model()
 
 class ProfileRegisterViewTests(django_test.TestCase):
@@ -22,6 +21,12 @@ class ProfileRegisterViewTests(django_test.TestCase):
         'description': 'Bio of profile user',
         'picture': 'http://test.picture/url.png',
     }
+
+    INVALID_USER_CREDENTIALS = {
+        'username': 'mo@@',
+        'password': '12SDSA',
+    }
+
 
 
     def test_signup_page(self):
@@ -51,9 +56,18 @@ class ProfileRegisterViewTests(django_test.TestCase):
         self.assertRedirects(response, expected_url)
 
 
+    def test_when_creating_profile_entering_invalid_user_credentials__expect_raise(self):
+        user = UserModel.objects.create_user(**self.INVALID_USER_CREDENTIALS)
 
-# ----------- profile details tests -----------#
-class ProfileDetailsViewTest(django_test.TestCase):
+        with self.assertRaises(ValidationError) as context:
+            user.full_clean()
+            user.save()
+
+        self.assertIsNotNone(context.exception)
+
+
+# ----------- profile  tests -----------#
+class ProfileViewTest(django_test.TestCase):
     VALID_USER_CREDENTIALS = {
         'username': 'mo',
         'password': '12',
@@ -67,16 +81,8 @@ class ProfileDetailsViewTest(django_test.TestCase):
         'picture': 'http://test.picture/url.png',
     }
 
-    def test_when_everything_is_valid__expect_correct_template(self):
-        user = UserModel.objects.create_user(**self.VALID_USER_CREDENTIALS)
-        profile = Profile.objects.create(
-            **self.VALID_DATA_FOR_PROFILE,
-            user=user,
-        )
-        response = self.client.get(reverse('profile details', kwargs={
-            'pk': profile.pk,
-        }))
-        self.assertTemplateUsed('accounts/profile_details.html')
+    def __get_response_for_profile(self, profile):
+        return self.client.get(reverse('profile details', kwargs={'pk': profile.pk}))
 
     def test_profile_full_name__when_valid__expect_correct_full_name(self):
         profile = Profile(**self.VALID_DATA_FOR_PROFILE)
@@ -84,6 +90,18 @@ class ProfileDetailsViewTest(django_test.TestCase):
 
         self.assertEqual(expected_fullname, profile.full_name)
 
+    def test_expect_correct_profile_detail_view(self):
+        user = UserModel.objects.create_user(**self.VALID_USER_CREDENTIALS)
+        profile = Profile.objects.create(
+            **self.VALID_DATA_FOR_PROFILE,
+            user=user,
+        )
+        self.__get_response_for_profile(profile)
+        self.assertTemplateUsed('accounts/profile_details.html')
+
+    def test_when_opening_non_existing_profile__expect_error_404(self):
+        response = self.client.get(reverse('profile details', kwargs={'pk': '11'}))
+        self.assertEqual(404, response.status_code)
 
 
 
@@ -142,7 +160,6 @@ class ProfileNameOnlyLettersValidatorTest(django_test.TestCase):
             **self.INVALID_PROFILE_NAME_CONTAINING_SPACE,
             user=user,
         )
-
         with self.assertRaises(ValidationError) as context:
             profile.full_clean()
             profile.save()

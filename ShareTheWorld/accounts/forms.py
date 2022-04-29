@@ -104,14 +104,3 @@ class EditProfileForm(BootstrapFormMixin, forms.ModelForm):
                 },
             )
         }
-
-# class DeleteProfileForm(BootstrapFormMixin, DisabledFieldsFormMixin, forms.ModelForm):
-#
-#     def save(self, commit=True):
-#         self.instance.delete()
-#         return self.instance
-#
-#     class Meta:
-#         model = Profile
-#         fields = ()
-#
